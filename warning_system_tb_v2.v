@@ -6,7 +6,7 @@ module warning_system_tb_v2;
   //wire start_permit, chime, warn_pri2, warn_pri1, seat_warn, door_warn, hood_warn, trunk_warn, bat_warn, airbag_warn, temp_warn;
 
 
-  wire [13:0] i;
+  reg [13:0] i;
   //assign i = {sb, door, key, brk, park, hood, bat_ok, aib_ok, tmp_ok, pass_occ, sb_p, trunk, pbrk, srv};
   
   wire [10:0] o;
